@@ -1,0 +1,758 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.page {
+    width: 1500px;
+    min-height: calc(100vh - 300px);
+    margin: 0 auto;
+    background-color: rgb(248, 248, 248);
+}
+
+.page .head {
+   /* background-color: rgb(171, 234, 250)*/
+    background-image: url("img/4k-beer-texture-liquid-textures-beer-with-foam-texture-beer-foam.jpg");
+    background-position: 100%;
+    position: absolute;
+    top: 0px;
+    width: 1500px;
+    height: 550px;
+}
+
+
+.head_menu {
+    height: 150px;
+    width: auto;
+}
+
+.head_menu .logo {
+    background-image: url("img/logo.png");
+    height: 120px;
+    width: 150px;
+    float: left;
+    position: absolute;
+    left: 185px;
+    top: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.welcome {
+    background-color: rgb(255, 245, 31);
+    position: relative;
+    left: 160px;
+    top: 185px;
+    width: 270px;
+    height: 300px;
+
+}
+
+.welcome h3 {
+    font-size: 30px;
+    font-family: "Myriad Pro";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: left;
+    padding: 81px 5px 50px 22px;
+}
+
+.welcome p {
+    font-size: 17.722px;
+    font-family: "Myriad Pro";
+    color: rgb(51, 51, 51);
+    line-height: 1.1;
+    text-align: left;
+    position: absolute;
+    left: 26.602px;
+    top: 150px;
+    width: 216.53px;
+    height: 93.485px;
+}
+
+.menu2 {
+    float: left;
+}
+
+.menu2 ul {
+    background-color: rgb(38, 210, 252);
+    position: relative;
+    left: 160px;
+    top: 210px;
+    width: 270px;
+    list-style-type: none;
+}
+
+.menu2 ul li {
+    background-color: rgb(38, 210, 252);
+    height: 43px;
+    padding: 15px 40px 6px 34px;
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 2.571;
+    text-align: left;
+}
+
+.menu2 ul li:hover{
+    background-color: #515151;
+    color: #ffffff;
+}
+
+.menu2 a {
+    text-decoration: none;
+}
+
+.menu2 .catalog .cat_hidden {
+    position: absolute;
+    left: 160px;
+    bottom: 531px;
+    z-index: 3;
+}
+
+.menu2 .catalog .cat_hidden ul {
+    position: absolute;
+    left: 110px;
+    bottom: 275px;
+    z-index: 3;
+    display: none;
+}
+
+.menu2 .catalog:hover .cat_hidden ul{
+    display: block;
+}
+
+.menu2 .catalog:hover .cat_hidden p {
+    color: black;
+}
+
+.menu2 .catalog:hover .cat_hidden li:hover p {
+    color: white;
+}
+
+.menu2 .sorts .sorts_hidden {
+    height: 0px;
+    position: absolute;
+    left: 110px;
+    z-index: 3;
+    bottom: 466px;
+    display: none;
+}
+
+.menu2 .sorts:hover .sorts_hidden {
+    display: block;
+}
+
+.menu2 .sorts:hover .sorts_hidden p {
+    color: black;
+}
+
+.menu2 .sorts:hover .sorts_hidden li:hover p {
+    color: white;
+}
+
+.menu_header {
+    background-color: rgb(51, 51, 51);
+    position: relative;
+    left: 160px;
+    top: 210px;
+    width: 270px;
+    height: 80px;
+}
+
+.menu_header p{
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 2.286;
+    text-align: left;
+    padding: 23px 40px 6px 34px;
+}
+
+.social_header {
+    margin-left: 1200px;
+    margin-top: -100px;
+}
+
+.opened {
+    background-color: rgb(224, 224, 224);
+    position: relative;
+    left: 159px;
+    top: 235px;
+    width: 270px;
+    height: 300px;
+}
+
+.opened p {
+    font-size: 34px;
+    font-family: "Myriad Pro";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.059;
+    text-align: left;
+    width: 247px;
+    height: 65px;
+    position: relative;
+    top: 129px;
+    left: 13px;
+}
+
+.new_arrival {
+    background-color: rgb(248, 248, 248);
+    width: 955px;
+    height: 810px;
+    margin-left: 500px;
+    position: relative;
+    display: flow-root;
+}
+
+.new_arrival a {
+    text-decoration: none;
+}
+
+.new_arrival p {
+    font-size: 22px;
+    font-family: "Myriad Pro";
+    color: rgb(112, 112, 112);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    padding: 30px 0px 21px 25px;
+}
+
+.new_arrival p:hover {
+    font-weight: bold;
+}
+
+.new_arrival .new_arrival_title {
+    font-size: 22px;
+    font-family: "Myriad Pro";
+    color: rgb(112, 112, 112);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    padding: 30px 0px 21px 25px;
+}
+
+.top_products {
+    background-color: rgb(248, 248, 248);
+    height: 500px;
+    margin-left: 475px;
+}
+
+.top_products a {
+    text-decoration: none;
+}
+
+.top_products p{
+    font-size: 22px;
+    font-family: "Myriad Pro";
+    color: rgb(112, 112, 112);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    padding: 30px 0px 21px 25px;
+}
+
+.top_products p:hover {
+    font-weight: bold;
+}
+
+.sales {
+    background-color: rgb(248, 248, 248);
+    width: 955px;
+    height: 430px;
+    display: flow-root;
+    margin-left: 475px;
+}
+
+.sales a {
+    text-decoration: none;
+}
+
+.sales p:hover {
+    font-weight: bold;
+}
+
+.sales .sales_title{
+    font-size: 22px;
+    font-family: "Myriad Pro";
+    color: rgb(112, 112, 112);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.sales_items {
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.sales_items .sale_item {
+background-color: #ffffff;
+float: left;
+width: 270px;
+height: 320px;
+margin-right: 30px;
+margin-bottom: 30px;
+}
+
+.sales_items .sales_item_img {
+   height: 230px;
+    width: 250px;
+    background-color: rgb(234, 234, 234);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.sales_items .sales_item_img:hover {
+    outline: 2px solid red;
+    opacity: 60%;
+}
+
+.sales_items .sale_item .sale_item_price {
+    display: inline-block;
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.sales_items .sale_item p {
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(51, 51, 51);
+    line-height: 1.286;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    float: left;
+    width: 50px;
+}
+
+.Brands {
+    background-color: rgb(255, 255, 255);
+    width: 1170px;
+    height: 160px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.brands {
+background: no-repeat url("img/brands.png");
+opacity: 0.271;
+width: 1142px;
+height: 26px;
+position: relative;
+top: 63px;
+left: 14px;
+}
+
+.instagram {
+background-color: rgb(234, 234, 234);
+width: 1170px;
+height: 350px;
+margin: 0 auto;
+}
+
+.instagram a {
+    text-decoration: none;
+}
+
+.insta_logo {
+background-image: url(img/instaicon.png);
+position: relative;
+left: 477px;
+top: 40px;
+width: 28px;
+height: 28px;
+float: left;
+}
+
+.insta_link {
+font-size: 22px;
+font-family: "Myriad Pro";
+color: rgb(51, 51, 51);
+line-height: 1.2;
+text-align: left;
+position: relative;
+left: 485px;
+top: 40px;
+width: 240px;
+height: 20px;
+}
+
+.insta_link:hover {
+    color: black;
+}
+
+.thumbnails {
+height: 185px;
+width: 1170px;
+padding-top: 83px;
+}
+
+.thumb1 {
+background: no-repeat url("img/inst_thumb/Livello25.png");
+width: 185px;
+height: 185px;
+float: left;
+padding-right: 12px;
+}
+
+.thumb2 {
+background: no-repeat url("img/inst_thumb/Livello26.png");
+width: 185px;
+height: 185px;
+float: left;
+padding-right: 12px;
+}
+
+.thumb3 {
+background: no-repeat url("img/inst_thumb/Livello27.png");
+width: 185px;
+height: 185px;
+float: left;
+padding-right: 12px;
+}
+
+.thumb4 {
+background: no-repeat url("img/inst_thumb/Livello28.png");
+width: 185px;
+height: 185px;
+float: left;
+padding-right: 12px;
+}
+
+.thumb5 {
+background: no-repeat url("img/inst_thumb/Livello29.png");
+width: 185px;
+height: 185px;
+float: left;
+padding-right: 12px;
+}
+
+.thumb6 {
+background: no-repeat url("img/inst_thumb/Livello30.png");
+width: 185px;
+height: 185px;
+float: left;
+}
+
+.social {
+height: 150px;
+width: 1170px;
+margin: 0 auto;
+}
+
+.fb {
+background-color: rgb(59, 89, 151);
+float: left;
+width: 390px;
+height: 150px;
+}
+
+.fb_logo {
+background: no-repeat url("img/social/ficon.png");
+margin-left: 180px;
+margin-top: 44px;
+width: 30px;
+height: 62px;
+}
+
+.tw {
+background-color: rgb(63, 204, 253);
+float: left;
+width: 390px;
+height: 150px;
+}
+
+.tw_logo {
+background: no-repeat url("img/social/twicon.png");
+margin-left: 163px;
+margin-top: 49px;
+width: 64px;
+height: 52px;
+}
+
+.pin {
+background-color: rgb(203, 32, 39);
+float: left;
+width: 390px;
+height: 150px;
+}
+
+.pin_logo {
+background: no-repeat url("img/social/pinicon.png");
+margin-left: 163px;
+margin-top: 43px;
+width: 64px;
+height: 64px;
+}
+
+.items {
+position: relative;
+left: 25px;
+}
+
+.new_item {
+background-color: rgb(255, 255, 255);
+float: left;
+width: 270px;
+height: 320px;
+margin-right: 30px;
+margin-bottom: 30px;
+}
+
+.item_pic {
+background-color: rgb(234, 234, 234);
+position: relative;
+top: 10px;
+left: 10px;
+width: 250px;
+height: 235px;
+}
+
+.item_pic:hover{
+    outline: 2px solid red;
+    opacity: 60%;
+}
+
+.item_name {
+float: left;
+width: 150px;
+height: 40px;
+}
+
+.item_name p:hover {
+    font-weight: bold;
+}
+
+.item_name p {
+font-size: 14px;
+font-family: "Myriad Pro";
+color: rgb(51, 51, 51);
+line-height: 1.286;
+text-align: left;
+}
+
+.item_price {
+float: right;
+width: 61.582px;
+height: 45px;
+padding-right: 50px;
+}
+
+.item_price p {
+font-size: 18px;
+font-family: "Myriad Pro";
+color: rgb(51, 51, 51);
+line-height: 1.2;
+text-align: right;
+height: 11.669px;
+}
+
+.item_price p:nth-child(2) {
+    color: red;
+    text-decoration: line-through;
+    position: relative;
+    bottom: 40px;
+}
+
+.clr {
+width: auto;
+height: 40px;
+}
+
+footer {
+background-color: rgb(55, 55, 55);
+margin: 0 auto;
+width: 1500px;
+height: 300px;
+z-index: 3;
+    padding-top: 75px;
+}
+
+footer .links {
+width: auto;
+height: auto;
+margin-left: 192px;
+}
+
+footer .category , .account, .support {
+float: left;
+margin-right: 115px;
+font-size: 12px;
+font-family: "Myriad Pro";
+color: rgb(255, 255, 255);
+line-height: 1.5;
+text-align: left;
+}
+
+footer .account ul li, .category ul li, .support ul li {
+list-style-type: none;
+}
+
+footer .footer_head {
+font-size: 18px;
+font-family: "Myriad Pro";
+color: rgb(255, 255, 255);
+line-height: 1.2;
+text-align: left;
+margin-bottom: 30px;
+}
+
+footer .links .footer_head:hover, .account .footer_head:hover, .support .footer_head:hover {
+    color: rgba(255,120,121,0.8);
+}
+
+footer .newsletter {
+height: 95px;
+width: 255px;
+float: left;
+}
+
+footer .submit_field {
+width: 255px;
+height: 30px;
+margin-top: 20px;
+}
+
+footer .submit_field .email {
+background-color: rgb(255, 245, 31);
+width: 180px;
+height: 30px;
+z-index: 37;
+font-size: 12px;
+font-family: "Myriad Pro";
+color: rgba(51, 51, 51, 0.451);
+text-transform: uppercase;
+line-height: 1.75;
+float: left;
+}
+
+footer .newsletter p {
+font-size: 12px;
+font-family: "Roboto";
+color: rgb(248, 248, 248);
+line-height: 1;
+text-align: left;
+}
+
+footer .submit_field .button_submit {
+font-size: 12px;
+font-family: "Roboto";
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+line-height: 1.75;
+background-color: rgb(0, 0, 0);
+width: 71px;
+height: 30px;
+float: left;
+}
+
+footer .about {
+height: 170px;
+width: 240px;
+float: left;
+margin-left: 54px;
+}
+
+footer .about_text {
+font-size: 12px;
+font-family: "Roboto";
+color: rgb(255, 255, 255);
+line-height: 14px;
+text-align: left;
+}
+
+footer .about p {
+font-size: 12px;
+font-family: "Roboto";
+color: rgb(255, 255, 255);
+line-height: 14px;
+text-align: left;
+margin-top: 10px;
+}
+
+footer .about p a {
+color: yellow;
+}
+
+footer .payment {
+float: left;
+position: relative;
+top: 0px;
+left: 805px;
+}
+
+footer .payment .pay1, .pay2, .pay3, .pay4, .pay5, .pay6 {
+height: 22px;
+width: 36px;
+margin-right: 10px;
+float: left;
+}
+
+footer .payment .pay1 {
+background: no-repeat url("img/pay/aex.png");
+}
+
+footer .payment .pay2 {
+background: no-repeat url("img/pay/discover.png");
+}
+
+footer .payment .pay3 {
+background: no-repeat url("img/pay/maestero.png");
+}
+
+footer .payment .pay4 {
+background: no-repeat url("img/pay/mastercard.png");
+}
+
+footer .payment .pay5 {
+background: no-repeat url("img/pay/paypal.png");
+}
+
+footer .payment .pay6 {
+background: no-repeat url("img/pay/visa_straight.png");
+}
+
+.footer_arr {
+width: 100%;
+height: 45px;
+background-color: #333333;
+position: relative;
+top: 63px;
+display: inline-block;
+}
+
+.footer_arr p {
+font-size: 12px;
+font-family: "Roboto";
+color: rgb(218, 217, 217);
+line-height: 1.8;
+text-align: left;
+width: 599px;
+height: 13px;
+    margin-left: 171px;
+}
+
+.links  a {
+    text-decoration: none;
+    color: white;
+}
+
+.links a:hover {
+    color: rgba(255,234,124,0.8);
+}
+
+footer .about .email_adress a:hover {
+    color: orange;
+}
